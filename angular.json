@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "witprojects": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "witprojects"
+    }
+  },
+  "defaultProject": "witprojects",
+  "cli": {
+    "analytics": "7697b0b7-3670-4616-9102-d32a384121e9"
+  }
 }
