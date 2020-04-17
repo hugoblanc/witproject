@@ -8,7 +8,7 @@ import { Project } from '../../../../models/project';
 })
 export class ProjectCardComponent implements OnInit {
 
-@Input() project: Project;
+@Input() project: Project ;
 
   constructor() { }
 
