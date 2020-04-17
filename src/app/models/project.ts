@@ -4,7 +4,7 @@ export class Project {
   imageUrl: string;
   githubLink: string;
 
-  constructor(project: Project) {
+  constructor(project?: Project) {
     Object.assign(this, project);
   }
 
