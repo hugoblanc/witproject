@@ -1,1 +1,10 @@
-<wpj-project-card  [project]="project"  *ngFor="let project of projects" [routerLink]="['/project-details', project.id]" ></wpj-project-card>
+<h1>The List</h1>
+
+<div class="container" *ngFor="let project of projects">
+
+  <div class="content"></div>
+
+  <wpj-project-card [project]="project" [routerLink]="['/project-details', project.id]"></wpj-project-card>
+
+
+  </div>
