@@ -9,7 +9,7 @@ import { Project } from '../../models/project';
 })
 export class ProjectDetailsComponent implements OnInit {
 
-  project: Project;
+  project = new Project();
 
   constructor(private route: ActivatedRoute, private router: Router) { }
 
@@ -22,7 +22,7 @@ export class ProjectDetailsComponent implements OnInit {
         name: 'NeuralJS',
         githubLink: 'https://github.com/hugoblanc/NeuralJS',
         imageUrl: 'https://miro.medium.com/max/6000/1*wT6pIMnjZ9oArkidnVsGtg.png'
-      }),  new Project({
+      }), new Project({
         id: 2,
         name: 'Athena',
         githubLink: 'https://github.com/hugoblanc/Athena',
@@ -37,7 +37,7 @@ export class ProjectDetailsComponent implements OnInit {
       }
 
 
-      this.project =  projects.find((p: Project) => p.id === id);
+      this.project = projects.find((p: Project) => p.id === id);
 
     });
   }
