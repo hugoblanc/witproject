@@ -9,6 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "doc":"npx compodoc -p tsconfig.json -n 'My List documentation'",
+    "livedoc":"npx compodoc -p tsconfig.json -n 'My List documentation' -s",
     "release": "standard-version"
   },
   "private": true,
