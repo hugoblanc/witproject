@@ -8,7 +8,10 @@ import { Project } from '../../../../models/project';
 })
 export class ProjectCardComponent implements OnInit {
 
-@Input() project: Project ;
+  /**
+   * A project displayed by the card
+   */
+  @Input() project: Project;
 
   constructor() { }
 

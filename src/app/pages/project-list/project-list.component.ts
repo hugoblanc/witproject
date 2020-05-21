@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Project } from '../../models/project';
 
+/**
+ * A component in charge of displaying project list
+ */
 @Component({
   selector: 'wpj-project-list',
   templateUrl: './project-list.component.html',
@@ -8,6 +11,9 @@ import { Project } from '../../models/project';
 })
 export class ProjectListComponent implements OnInit {
 
+  /**
+   * List of projects to display
+   */
   projects: Project[] = [];
 
 
