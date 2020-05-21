@@ -8,6 +8,7 @@
     "test": "ng test --watch false --browsers=ChromeHeadlessPuppeteer",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "doc":"npx compodoc -p tsconfig.json -n 'My List documentation'",
     "release": "standard-version"
   },
   "private": true,
