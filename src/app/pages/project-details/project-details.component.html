@@ -1,3 +1,20 @@
-<img [src]="project.imageUrl" [alt]="project.name + ' image'">
-<h2>{{ project.name}} </h2>
-<a [href]="project.githubLink"> Github {{project.name }}</a>
+<header>
+  <img id="project-image" [src]="project.imageUrl" [alt]="project.name + ' image'">
+  <h1>{{ project.name}} </h1>
+</header>
+
+<a id="github-link" [href]="project.githubLink">
+  <label>Voir sur github</label>
+  <img id="github-icon" src="assets/icons/github.svg" alt="Github icon">
+</a>
+
+
+<div class="section" >
+  <label>Description: </label>
+  <p> {{project.description}} </p>
+</div>
+
+<div id="fun-container" class="section">
+  <label>Fun fact: </label>
+  <p [innerHTML]="project.funFact"></p>
+</div>
