@@ -35,3 +35,22 @@ wpj-project-card {
     height: 250%;
   }
 }
+
+@media screen and (max-width: 450px) {
+
+  h1{
+    font-size: 3.5rem;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  wpj-project-card{
+    margin: 0.5rem;
+  }
+
+  .container{
+    .content{
+      display: none;
+    }
+  }
+}
