@@ -1,6 +1,6 @@
 {
   "name": "witprojects",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,8 +8,8 @@
     "test": "ng test --watch false --browsers=ChromeHeadlessPuppeteer",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "doc":"npx compodoc -p tsconfig.json -n 'My List documentation'",
-    "livedoc":"npx compodoc -p tsconfig.json -n 'My List documentation' -s",
+    "doc": "npx compodoc -p tsconfig.json -n 'My List documentation'",
+    "livedoc": "npx compodoc -p tsconfig.json -n 'My List documentation' -s",
     "release": "standard-version"
   },
   "private": true,
