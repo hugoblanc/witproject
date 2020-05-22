@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
 import { Project } from '../../models/project';
+import { ProjectService } from '../../shared/project.service';
 
 /**
  * A component in charge of displaying project list
@@ -17,21 +19,10 @@ export class ProjectListComponent implements OnInit {
   projects: Project[] = [];
 
 
-  constructor() { }
+  constructor(private projectService: ProjectService) { }
 
   ngOnInit(): void {
-
-    this.projects.push(new Project({
-      id: 1,
-      name: 'NeuralJS',
-      githubLink: 'https://github.com/hugoblanc/NeuralJS',
-      imageUrl: 'https://miro.medium.com/max/6000/1*wT6pIMnjZ9oArkidnVsGtg.png'
-    }), new Project({
-      id: 2,
-      name: 'Athena',
-      githubLink: 'https://github.com/hugoblanc/Athena',
-      imageUrl: 'https://avatars3.githubusercontent.com/u/15015179?s=460&u=62c173794efcef6d92e06eb4c648fef3369c4598&v=4'
-    }));
+    this.projects = this.projectService.getProjects();
   }
 
 }
