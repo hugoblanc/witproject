@@ -15,6 +15,8 @@ describe('ProjectDetailsComponent', () => {
   const project = new Project({
     id: 1,
     name: 'NeuralJS',
+    description: 'implémentation from scratch d\'un réseau neuronal en JS',
+    funFact: 'La version JS marche bien, la version typescript est hésitante sur la descente de gradient ... ',
     githubLink: 'https://github.com/hugoblanc/NeuralJS',
     imageUrl: 'https://miro.medium.com/max/6000/1*wT6pIMnjZ9oArkidnVsGtg.png'
   });
@@ -50,18 +52,11 @@ describe('ProjectDetailsComponent', () => {
   }
 
 
-  // it('should display that hero\'s name', () => {
-  //   expect(page.nameDisplay.textContent).toBe(project.name);
-  // });
-
 
 });
 
 class Page {
-  // getter properties wait to query the DOM until called.
-  // get buttons()     { return this.queryAll<HTMLButtonElement>('button'); }
-  // get saveBtn()     { return this.buttons[0]; }
-  // get cancelBtn()   { return this.buttons[1]; }
+
   get nameDisplay() { return this.query<HTMLElement>('h2'); }
   // get nameInput()   { return this.query<HTMLInputElement>('input'); }
 
@@ -80,8 +75,5 @@ class Page {
     return this.fixture.nativeElement.querySelector(selector);
   }
 
-  private queryAll<T>(selector: string): T[] {
-    return this.fixture.nativeElement.querySelectorAll(selector);
-  }
 }
 

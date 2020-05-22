@@ -33,4 +33,14 @@ describe('ProjectService', () => {
   });
 
 
+  it('should has a getById method', () => {
+    expect(service.getById).toBeDefined();
+  });
+
+  it('should has a getById method which return an Object for id 1', () => {
+    const project = service.getById(1);
+    expect(project).toBeInstanceOf(Project);
+  });
+
+
 });

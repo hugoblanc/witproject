@@ -20,6 +20,8 @@ describe('ProjectCardComponent', () => {
     component.project = new Project({
       id: 1,
       name: 'NeuralJS',
+      description: 'implémentation from scratch d\'un réseau neuronal en JS',
+      funFact: 'La version JS marche bien, la version typescript est hésitante sur la descente de gradient ... ',
       githubLink: 'https://github.com/hugoblanc/NeuralJS',
       imageUrl: 'https://miro.medium.com/max/6000/1*wT6pIMnjZ9oArkidnVsGtg.png'
     });
