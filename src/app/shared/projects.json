@@ -1,5 +1,13 @@
 [
   {
+    "id": 2,
+    "name": "Athena",
+    "description": "Projet open source agrégateur de contenu appartenant aux médias indépendants",
+    "funFact": "Disponible sur les stores:  <a href=\"https://play.google.com/store/apps/details?id=com.open.athena\">Android </a> / <a href=\"https://apps.apple.com/us/app/athena/id1472567223?l=fr&ls=1\">IOS </a>  ",
+    "githubLink": "https://github.com/hugoblanc/Athena",
+    "imageUrl": "https://avatars3.githubusercontent.com/u/15015179?s=460&u=62c173794efcef6d92e06eb4c648fef3369c4598&v=4"
+  },
+  {
     "id": 1,
     "name": "NeuralJS",
     "description": "implémentation from scratch d'un réseau neuronal en JS",
@@ -8,18 +16,10 @@
     "imageUrl": "https://miro.medium.com/max/6000/1*wT6pIMnjZ9oArkidnVsGtg.png"
   },
   {
-    "id": 2,
-    "name": "Athena",
-    "description": "Projet open source agrégateur de contenu appartenant aux médias indépendants",
-    "funFact": "Disponible sur les stores: ",
-    "githubLink": "https://github.com/hugoblanc/Athena",
-    "imageUrl": "https://avatars3.githubusercontent.com/u/15015179?s=460&u=62c173794efcef6d92e06eb4c648fef3369c4598&v=4"
-  },
-  {
     "id": 3,
     "name": "Deno Rest API",
     "description": "Poc d'utilisation de deno combinant Alosaur et TypeORM",
-    "funFact": "J'ai rédigé un article Medium/Dev.to",
+    "funFact": "J'ai rédigé un article <a href=\"https://medium.com/@hugoblanc.blend/create-a-deno-rest-api-a-promising-start-with-alosaur-and-typeorm-5cf797694eb4\">Medium</a> ",
     "githubLink": "https://github.com/hugoblanc/deno-api",
     "imageUrl": "https://avatars1.githubusercontent.com/u/42048915?s=200&v=4"
   },
@@ -27,8 +27,9 @@
     "id": 4,
     "name": "Capcode",
     "description": "Extension VSCode pour  afficher automatiquement les informations d'un environnement Caprover dans VSCode",
-    "funFact": "Disponible sur le store: <a href=\"https://marketplace.visualstudio.com/items?itemName=MrWhite.capcode\">Market</a>",
+    "funFact": "Disponible sur le store d'extensions: <a href=\"https://marketplace.visualstudio.com/items?itemName=MrWhite.capcode\">Market</a>",
     "githubLink": "https://github.com/hugoblanc/capcode",
     "imageUrl": "https://caprover.com/img/logo-padded.png"
   }
 ]
+
