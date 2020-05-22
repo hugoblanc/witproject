@@ -1,26 +1,34 @@
 [
   {
-  "id": 1,
-  "name": "NeuralJS",
-  "githubLink": "https://github.com/hugoblanc/NeuralJS",
-  "imageUrl": "https://miro.medium.com/max/6000/1*wT6pIMnjZ9oArkidnVsGtg.png"
+    "id": 1,
+    "name": "NeuralJS",
+    "description": "implémentation from scratch d'un réseau neuronal en JS",
+    "funFact": "La version JS marche bien, la version typescript est hésitante sur la descente de gradient ... ",
+    "githubLink": "https://github.com/hugoblanc/NeuralJS",
+    "imageUrl": "https://miro.medium.com/max/6000/1*wT6pIMnjZ9oArkidnVsGtg.png"
   },
   {
-  "id": 2,
-  "name": "Athena",
-  "githubLink": "https://github.com/hugoblanc/Athena",
-  "imageUrl": "https://avatars3.githubusercontent.com/u/15015179?s=460&u=62c173794efcef6d92e06eb4c648fef3369c4598&v=4"
+    "id": 2,
+    "name": "Athena",
+    "description": "Projet open source agrégateur de contenu appartenant aux médias indépendants",
+    "funFact": "Disponible sur les stores: ",
+    "githubLink": "https://github.com/hugoblanc/Athena",
+    "imageUrl": "https://avatars3.githubusercontent.com/u/15015179?s=460&u=62c173794efcef6d92e06eb4c648fef3369c4598&v=4"
   },
   {
-  "id": 3,
-  "name": "Deno Rest API",
-  "githubLink": "https://github.com/hugoblanc/deno-api",
-  "imageUrl": "https://avatars1.githubusercontent.com/u/42048915?s=200&v=4"
+    "id": 3,
+    "name": "Deno Rest API",
+    "description": "Poc d'utilisation de deno combinant Alosaur et TypeORM",
+    "funFact": "J'ai rédigé un article Medium/Dev.to",
+    "githubLink": "https://github.com/hugoblanc/deno-api",
+    "imageUrl": "https://avatars1.githubusercontent.com/u/42048915?s=200&v=4"
   },
   {
-  "id": 4,
-  "name": "Capcode",
-  "githubLink": "https://github.com/hugoblanc/capcode",
-  "imageUrl": "https://caprover.com/img/logo-padded.png"
+    "id": 4,
+    "name": "Capcode",
+    "description": "Extension VSCode pour  afficher automatiquement les informations d'un environnement Caprover dans VSCode",
+    "funFact": "Disponible sur le store: <a href=\"https://marketplace.visualstudio.com/items?itemName=MrWhite.capcode\">Market</a>",
+    "githubLink": "https://github.com/hugoblanc/capcode",
+    "imageUrl": "https://caprover.com/img/logo-padded.png"
   }
 ]
