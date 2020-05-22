@@ -15,4 +15,10 @@ export class ProjectService {
     return projects;
   }
 
+
+  getById(id: number): Project {
+    const project = this.getProjects().find(p => p.id === id);
+    return project;
+  }
+
 }
