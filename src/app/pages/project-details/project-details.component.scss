@@ -1,3 +1,17 @@
+:host{
+  padding: var(--padding);
+  display: block;
+}
+
+
 img{
   width: 300px;
+}
+
+
+@media screen and (max-width: 450px) {
+
+  img{
+    width: 100vw;
+  }
 }

@@ -2,3 +2,12 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  --padding:  8rem;
+  @media screen and (max-width: 450px){
+    --padding:  0rem;
+  }
+}
+
+
